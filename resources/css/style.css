@@ -155,7 +155,7 @@ footer {
     max-width: 100%;
   }
   nav {
-    padding: 0;
+    padding: 0rem;
   }
   header {
     height: 22rem;
@@ -169,4 +169,27 @@ footer {
   h1 {
     font-size: 1.33rem;
   }
+  }
+
+  @media only screen and (max-width: 470px) {
+    .container {
+      flex-direction: column;
+      max-width: 100%;
+    }
+    nav {
+      padding: 0rem;
+    }
+    header {
+      height: 17rem;
+    }
+    main-banner {
+      background-position: 20%;
+      margin-top: 9rem;
+      padding: 0rem;
+    }
+    h1 {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
   }
