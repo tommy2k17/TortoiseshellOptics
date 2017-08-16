@@ -148,3 +148,25 @@ footer {
   display: flex;
   align-items: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    max-width: 100%;
+  }
+  nav {
+    padding: 0;
+  }
+  header {
+    height: 22rem;
+  }
+  .main-banner {
+    margin-top: 5rem;
+    padding: 0.37rem 4rem;
+    margin-right: 4rem;
+    margin-left: 4rem;
+  }
+  h1 {
+    font-size: 1.33rem;
+  }
+  }
